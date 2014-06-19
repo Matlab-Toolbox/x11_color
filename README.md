@@ -18,7 +18,7 @@ x11_rgb returns just the RGB.
 To get library clone from github:
  
     cd to your lib folder
-    git clone https://github.com/morganp/matlab_x11_color.git x11_color
+    git clone https://github.com/Matlab-Toolbox/matlab_x11_color.git x11_color
 
 To use add the package folder to your path and import functions
 
