@@ -20,7 +20,7 @@ To get library clone from github:
     cd to your lib folder
     git clone https://github.com/Matlab-Toolbox/matlab_x11_color.git x11_color
 
-To use add the package folder to your path and import functions
+**1** To use add the package folder to your path and import functions
 
     addpath('..../x11_color/package/');
     import x11_color.*
@@ -30,4 +30,17 @@ then just :
 
     tomato = x11_color.tomato;
     plot(x,y, tomato{:});
+
+
+**2** Or just add `load_package` to you script:
+
+    %% Your script
+
+    %% Load package
+    run(['/path_to_package/x11_color/load_package.m']);
+
+    tomato = x11_color.tomato;
+    plot(x,y, tomato{:});
+
+For the full list of names check out [X11 color names](http://en.wikipedia.org/wiki/X11_color_names).
 
