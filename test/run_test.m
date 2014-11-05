@@ -1,14 +1,16 @@
-addpath('../package/');
-    import x11_color.*
-    % or import x11_rgb.*
+restoredefaultpath; matlabrc % Clear path
+clear import; % clear packages to test correct library
 
-    x = [1,2,3,4,5];
-    y = [1,2,3,4,5];
+run('../load_package.m')
 
-    tomato = x11_color.tomato
-    
-    disp('Test image now showing');
-    plot(x,y, tomato{:});
+
+x = [1,2,3,4,5];
+y = [1,2,3,4,5];
+
+tomato = x11_color.tomato
+
+disp('Test image now showing');
+plot(x,y, tomato{:});
     
     
 
