@@ -22,9 +22,7 @@ To get library clone from github:
 
 **1** To use add the package folder to your path and import functions
 
-    addpath('..../x11_color/package/');
-    import x11_color.*
-    % or import x11_rgb.*
+    run('../path_to/x11_color/load_package.m')
 
 then just :
 
